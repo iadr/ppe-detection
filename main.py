@@ -3,8 +3,8 @@ from ultralytics import YOLO
 
 # Load a model
 
-# target_model = "Construction-Site-Safety-PPE-Detection/models/best.pt"
-target_model = "Construction-PPE-Detection/ppe.pt"
+# target_model = "models/best.pt" # "Construction-Site-Safety-PPE-Detection/models/best.pt"
+target_model = "ppe_1"  # "Construction-PPE-Detection/ppe.pt"
 # target_model = "ppe_detection/yolov8s_custom.pt"
 model = YOLO(target_model)  # pretrained YOLO11n model
 
